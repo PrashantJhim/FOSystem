@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+#Container{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+#Title{
+    font-family: 'Solitreo', cursive;
+}
+#Img{
+
+    width: 600px;
+}
+#Content{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.Titles{
+    font-family: 'Solitreo', cursive;
+}
+#Input1{
+    font-family: 'Solitreo', cursive;
+    width: 400px;
+    height: 40px;
+    font-size: medium;
+    border-top: 0px;
+    border-bottom: 2px solid black;
+    border-left: 0px;
+    border-right:0px ;
+}
+#Input1:hover{
+    border-bottom: 3px solid crimson;
+}
+#Input2{
+    font-family: 'Solitreo', cursive;
+    font-size: large;
+    width: 400px;
+    height: 40px;
+    border-top: 0px;
+    border-bottom: 2px solid black;
+    border-left: 0px;
+    border-right:0px ;
+}
+#Input2:hover{
+    border-bottom: 3px solid crimson;
+}
+#LoginButton2{
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: crimson;
+    font-size: x-large;
+    width: 100px;
+    height: 50px;
+}
+#LoginButton2:hover{
+    background-color: white;
+    color: crimson;
+    border: 1px solid black;
+}
